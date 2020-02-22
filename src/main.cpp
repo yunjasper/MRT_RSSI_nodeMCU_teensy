@@ -22,6 +22,7 @@ void handleRoot() {
 
 void setup() {
   //digitalWrite(5, HIGH);  // for debugging, write LED pin high (D1 pin)
+  pinMode(D1, OUTPUT);
   digitalWrite(D1, HIGH);
   Serial.begin(115200);
   Serial.println();
